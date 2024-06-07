@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![(mobile_screenshot.png)](images/mobile_screenshot.png)
+![(mobile_screenshot)](images/mobile_screenshot.png)
 
-![desktop_screenshot.png](images/desktop_screenshot.png)
+![desktop_screenshot](images/desktop_screenshot.png)
 
 ### Links
 
@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-From this FAQ Project, I was able to put my JavaScript skills into action to show or hide the answer to a question. I got to learn how to make my responsiveness looks much better and it took me no much time to build. Also, I got to know that I don't have to use google fonts link in my project once I'm given. I learnt how to apply it.
+From this FAQ Project, I was able to put my JavaScript skills into action to show or hide the answer to a question. I got to learn how to make my responsiveness look much better and it took me not much time to build. Also, I learned that I don't have to use the Google Fonts link in my project once I'm given it. I learnt how to apply it.
 
 Some codes that I'm proud of:
 
@@ -66,7 +66,7 @@ Some codes that I'm proud of:
     font-weight: 400, 600, 700;  
 }
 ```
-```js
+``` js
 const toggleNextSiblingTextAndIcon = (cont) => {
     const nextSibling = cont.nextElementSibling;
     if (nextSibling && nextSibling.classList.contains('text')) {
@@ -76,11 +76,11 @@ const toggleNextSiblingTextAndIcon = (cont) => {
 
 ### Continued development
 
-Work on more real world problems to improve my JavaScript skills.
+Work on more real-world problems to improve my JavaScript skills.
 
 ### Useful resources
 
-- [W3Schools](https://www.w3schools.com) - This helped me in knowing how to use font face to display my fonts. I really liked this pattern and will use it going forward.
+- [W3Schools](https://www.w3schools.com) - This helped me in knowing how to use font face to display my fonts. I liked this pattern and will use it going forward.
 - [ChatGpt](https://chatgpt.com) - This is an amazing app which helped me finally understand toggling. I'd recommend it to anyone still learning this concept.
 
 ## Author
@@ -90,7 +90,7 @@ Work on more real world problems to improve my JavaScript skills.
 
 ## Acknowledgments
 
-First and foremost, I acknowledge the Almighty God for the completion of this project. I am also proud of myself for dedicating my time and effort to achieve this goal.
+First and foremost, I acknowledge the Almighty God for completing this project. I am also proud of myself for dedicating my time and effort to achieve this goal.
 
 I would like to express my heartfelt gratitude to Bro Audrey, Bro Tosin, and my mum for ensuring I had a good laptop to work with. Their support and provision were invaluable in the successful completion of this project.
 

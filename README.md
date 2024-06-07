@@ -29,8 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/mobile_screenshot.png)
-![](images/desktop_screenshot.png)
+![(mobile_screenshot.png)](images/mobile_screenshot.png)
+
+![desktop_screenshot.png](images/desktop_screenshot.png)
 
 ### Links
 
@@ -79,8 +80,8 @@ Work on more real world problems to improve my JavaScript skills.
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com) - This helped me in knowing how to use font face to display my fonts. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://chatgpt.com) - This is an amazing app which helped me finally understand toggling. I'd recommend it to anyone still learning this concept.
+- [W3Schools](https://www.w3schools.com) - This helped me in knowing how to use font face to display my fonts. I really liked this pattern and will use it going forward.
+- [ChatGpt](https://chatgpt.com) - This is an amazing app which helped me finally understand toggling. I'd recommend it to anyone still learning this concept.
 
 ## Author
 

@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: 'Work Sans';
+}
+
+/* Regular */
+@font-face {
+    font-family: 'Work Sans';
+    src: url('fonts/WorkSans-VariableFont_wght.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 400, 600, 700;  
+}
+
+
+section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.purple {
+    width: 100%;
+    display: flex;
+    background-image: url('images/background-pattern-mobile.svg');
+    background-position: center bottom;
+    background-size: cover;
+    padding: 25% 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* Faqs content */
+
+.onion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.text-cont {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -80px 0 80px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* head content */
+
+.det_cont {
+    width: 90%;
+   
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    padding: 20px 0 0;
+    width: 45%;
+    color: hsl(292, 42%, 14%);
+    justify-content: space-between;
+}
+
+.img_1con {
+    width: 25%;
+}
+
+.p1 {
+    padding: 20px 0;
+    border-bottom: 2px solid hsl(275, 100%, 97%);
+}
+
+.p_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p_img p {
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+    width: 70%;
+}
+
+.more_icon, .p_img p:hover {
+    color: #AD28EB;
+    cursor: pointer;
+    /* - Dark purple: hsl(292, 42%, 14%); */
+}
+
+/* drop-down content */
+.text {
+    padding-top: 20px;
+    display: none;
+}
+
+.text p {
+    font-size: 16px;
+    text-align: left;
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
+
+
+@media screen and (min-width:600px){
+    .purple {
+        background-image: url('images/background-pattern-desktop.svg');
+        background-position: center right;
+        background-size: contain;
+        padding: 11% 0;
+    }
+
+    .text-cont {
+        width: 60%;
+        margin: -120px 0 80px;
+    }
+
+
+    .title {
+        width: 20%;
+        align-items: center;
+    }
+
+    .img_1con {
+        width: 20%;
+    }
+
+    .title h2 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .title {
+        width: 33%;
+    }
+
+    .text-cont {
+        margin: -100px 0 80px
+    }
+}

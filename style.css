@@ -37,7 +37,7 @@ section {
     display: flex;
     background-image: url('images/background-pattern-mobile.svg');
     background-position: center bottom;
-    background-size: cover;
+    background-size: 100%;
     padding: 25% 0;
 }
 
@@ -137,7 +137,6 @@ img {
     .purple {
         background-image: url('images/background-pattern-desktop.svg');
         background-position: center right;
-        background-size: contain;
         padding: 11% 0;
     }
 
